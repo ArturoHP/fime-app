@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Eldirectorpage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:scaleType="fitXY"
+                android:id="@+id/imagendirector"
+                android:paddingLeft="7dp"
+                android:layout_weight="4"
+                android:background="@color/White"
+                android:layout_width="0dp"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/nombredirector"
+                android:padding="2dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="FIME ha sido líder en la formación de ingenieros por más de 70 años, y se ha destacado por desarrollar programas educativos que forman y preparan a sus estudiantes para marcar una diferencia en el mundo. Nuestra educación innovadora e investigación de vanguardia han generado empresas, inventos y colaboraciones derivado de nuestras alianzas de vinculación con el sector público, industrial y de negocios, así como la academia en distintos niveles en favor de la mejor formación para nuestros estudiantes, logrando que nuestros egresados ayuden a construir un futuro mejor para la sociedad."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Este espacio es una invitación para que conozcas quiénes somos y lo que ofrecemos. Aquí podrás encontrar información amplia sobre todos los servicios que te pueden brindar nuestros docentes, así como las instalaciones que se hicieron pensando en la atención de tus necesidades."
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="FIME brinda oportunidades educativas de clase mundial para profesionales de la ingeniería y la ciencia de todo el mundo, que buscan avanzar en sus carreras y abordar creativamente problemas complejos reales. Nuestros docentes e investigadores brindan su experiencia y conocimientos a fin de contribuir en la búsqueda de tus talentos, además de auxiliarte en el desarrollo de tu potencial."
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="A medida que el contexto global exige nuevas formas de flexibilidad educativa, multidisciplinaria y global, FIME tiene una oferta académica competitiva y pertinente para satisfacer la demanda del entorno."
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="La comunidad FIME, unida y comprometida, busca un cambio constante y transformador en sus funciones para conseguir la excelencia académica y la innovación, así como la promoción del deporte y la cultura, fortaleciendo la formación integral del estudiante."
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

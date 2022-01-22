@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reconocimientos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:text="Reconocimientos, Premios y Distinciones"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Actualmente la Facultad cuenta con un total de 674 profesores, 55% cuenta con estudios de maestría y 44% de doctorado."
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Entre los años 1987 y 2019, el H. Consejo Universitario de la UANL a reconocido a 13 profesores de la Facultad con el nombramiento de Profesor Emérito, reconocimiento a la labor como profesor de excelente trayectoria académica y/o de investigación."
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="El número de profesores de tiempo completo de la FIME que cuenta actualmente con el perfil deseable PRODEP asciende a 272, mientras que 131 profesores fueron reconocidos como miembros del Sistema Nacional de Investigadores."
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="Certificación de Procesos Estratégicos"
+            android:textColor="@color/Black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Se obtuvieron mantenimiento de las certificaciones y recertificación de normas con alcance de diversos procesos estratégicos en las áreas de administración de la calidad, seguridad y salud en el trabajo y medio ambiente. Entre ellas, la recertificación: bajo la Norma ISO 9001:2015, correspondiente a la Administración de la Calidad. Asimismo, el mantenimiento de las certificaciones de las normas: ISO 45001:2018 para la Seguridad y Salud en el Trabajo y la Norma ISO 14001:2015 correspondiente al
+medio ambiente."
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:weightSum="9"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/norma9001"
+                android:layout_width="0dp"
+                android:layout_height="100dp"/>
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/norma14001"
+                android:layout_width="0dp"
+                android:layout_height="100dp"/>
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/norma45001"
+                android:layout_width="0dp"
+                android:layout_height="100dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:text="Acreditaciones"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="En la FIME se cuenta con el 100% de los programas de licenciatura evaluables acreditados por el Consejo de Acreditación de la Enseñanza de la Ingeniería, A. C. (CACEI), y un 70% de sus PE de licenciatura sean reconocidos internacionalmente al contar con el Sello European Accredited Engineer (EUR-ACE) y por ABET (Accreditation Board for Engineering and Technology)."
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Con respecto al posgrado, en la FIME el 55% de los PE son reconocidos por el Padrón Nacional de Posgrados de Calidad (PNPC), siendo uno de ellos de competencia internacional, tres consolidados, seis en desarrollo y uno en reciente creación. En el año 2019 se evaluaron y acreditaron 12 PE de posgrado por los Comités Interinstitucionales para la Evaluación de la Educación Superior (CIEES). Además, se logró que cuatro PE de posgrado fueran evaluados y reconocidos por la Asociación Universitaria Iberoamericana de Posgrado (AUIP). Logrando con ello que la FIME cuente con seis PE de maestría y doctorado adscritos a este organismo evaluador internacional. Lo anterior permitió a la FIME lograr que un 30% de los PE de posgrado sean reconocidos internacionalmente."
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="5"
+                android:src="@drawable/cacei"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="●Ingeniero Mecánico Electricista \n
+●Ingeniero Mecánico Administrador\n
+●Ingeniero Administrador de Sistemas\n
+●Ingeniero en Electrónica y Comunicaciones\n
+●Ingeniero en Electrónica y Automatización\n
+●Ingeniero en materiales\n
+●Ingeniero en Manufactura\n
+●Ingeniero en Mecatrónica\n
+●Ingeniero en Aeronáutica\n
+●Ingeniero en Tecnología de Software\n"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:src="@drawable/pnpc"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+
+        <TextView
+            android:padding="10dp"
+            android:text="● Doctorado en Ingeniería de Materiales Investigación"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Doctorado en Ingeniería Eléctrica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Doctorado en Ingeniería de Sistemas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ciencias de la Ingeniería con Orientación en Energías Térmica y Renovable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ciencias De La Ingeniería con Orientación en Sistemas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ciencias de la Ingeniería Eléctrica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ciencias de la Ingeniería con Orientación en Materiales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Logística y Cadena de Suministro Profesionalizante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ingeniería Aeronáutica Dinámica de Vuelo Estructuras Materiales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ciencias de la Ingeniería Automotriz Posgrado con la Industria
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:padding="10dp"
+            android:text="● Maestría en Ciencias de la Ingeniería con Orientación en Nanotecnología"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

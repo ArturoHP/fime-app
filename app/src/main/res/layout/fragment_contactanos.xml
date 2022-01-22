@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Contactanos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:text="Conmutador"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="10dp"
+        android:text="● UANL: (81) 83-29-40-00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="10dp"
+        android:text="● FIME: (81) 83-29-40-20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:text="Dirección"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="10dp"
+        android:text="● Dirección: Ext. 5700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="10dp"
+        android:text="● Oficina del director: Ext. 5743"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:text="Tesoreria"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Tesorería: Ext. 5922"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:text="Subdirecciones"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirección Académica: Ext. 5733"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirección Administrativa: Ext. 5982"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirector de Deporte y Cultura: Ext. 5713"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirector de Planeación e Innovacion: Ext. 4421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirección Posgrado: Ext. 5770"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirección Vinculación: Ext. 5953"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="● Subdirectora de Sustentabilidad y Responsabilidad Social: Ext. 1621"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:paddingBottom="15dp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:text="Redes Sociales"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:weightSum="4"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnface"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/Red"
+                    android:backgroundTint="@color/White"
+                    android:src="@drawable/fbicon" />
+
+                <ImageButton
+                    android:id="@+id/btninsta"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/Red"
+                    android:backgroundTint="@color/White"
+                    android:src="@drawable/instaicon" />
+
+                <ImageButton
+                    android:id="@+id/btntwitter"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/Red"
+                    android:backgroundTint="@color/White"
+                    android:src="@drawable/twittericon" />
+
+                <ImageButton
+                    android:id="@+id/btnyoutube"
+                    android:padding="10dp"
+                    android:scaleType="centerInside"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@color/Red"
+                    android:backgroundTint="@color/White"
+                    android:src="@drawable/youtubeicon" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fimeapp.ui.home.Inicio"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.fimeapp.ui.Noticiasfime.Noticias"
+        android:label="Noticias"
+        tools:layout="@layout/fragment_noticias" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.fimeapp.ui.Acercade.Acerca"
+        android:label="Contenido"
+        tools:layout="@layout/fragment_acercade" />
+    <fragment
+        android:id="@+id/contactanos"
+        android:name="com.example.fimeapp.Contactanos"
+        android:label="Contactanos"
+        tools:layout="@layout/fragment_contactanos" />
+    <fragment
+        android:id="@+id/cafeteria"
+        android:name="com.example.fimeapp.Cafeteria"
+        android:label="Cafeteria"
+        tools:layout="@layout/fragment_cafeteria" />
+    <fragment
+        android:id="@+id/account"
+        android:name="com.example.fimeapp.Account"
+        android:label="Cuenta"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/carrera"
+        android:name="com.example.fimeapp.Carrera"
+        android:label="Carrera"
+        tools:layout="@layout/fragment_carrera" />
+    <fragment
+        android:id="@+id/calendarios"
+        android:name="com.example.fimeapp.ui.Acercade.calendarios"
+        android:label="Calendarios"
+        tools:layout="@layout/fragment_calendarios" />
+</navigation>

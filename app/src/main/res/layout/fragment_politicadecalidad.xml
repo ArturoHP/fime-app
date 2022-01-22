@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Politicadecalidad">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:text="Política de Calidad"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Todos los que conformamos la Facultad de Ingeniería Mecánica y Eléctrica de la Universidad Autónoma de Nuevo León, manifestamos nuestro compromiso de cumplir con los requisitos legales y otros requerimientos aplicables a nuestra dependencia, así como de las partes interesadas, para satisfacer y superar las expectativas de la sociedad, buscando la excelencia mediante la mejora continua a través del logro de los OBJETIVOS DEL SISTEMA DE GESTIÓN INTEGRAL mencionados a continuación:"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="20dp"
+        android:text="● Elevar la calidad de la formación integral universitaria, tanto de sus estudiantes, profesores como del personal administrativo."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="● Contribuir al desarrollo de la investigación socialmente pertinente a través de la formación y la consolidación de grupos y líneas de investigación que permitan la generación, aplicación y transmisión de conocimientos, así como productos científicos enfocados al desarrollo humano sostenible, congruentes con la agenda de desarrollo local y nacional."
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="● Aumentar la extensión y vinculación con el entorno mediante la participación comprometida de la FIME, generando y apoyando proyectos a través de alianzas estratégicas con los diferentes actores sociales, en beneficio de la sociedad, particularmente con la industria."
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="● Mejorar la práctica de una gestión ética y de calidad, la toma de decisiones basadas en el marco normativo vigente, asegurando un adecuado clima laboral, desarrollando talentos en el recurso humano, manteniendo y mejorando la infraestructura, con procesos internos altamente participativos e incluyentes, con especial énfasis en materia de transparencia."
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

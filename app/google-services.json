@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "273832277522",
+    "firebase_url": "https://fime-app-a9551.firebaseio.com",
+    "project_id": "fime-app-a9551",
+    "storage_bucket": "fime-app-a9551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273832277522:android:f81ff8ec8fc6a6d05f0acb",
+        "android_client_info": {
+          "package_name": "com.example.fimeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273832277522-sq4fj8l97btb6fv7gjc7jlucl039vvp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrRmmtG7rIu5EiSlO4uCZd43QxXNjdJzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273832277522-sq4fj8l97btb6fv7gjc7jlucl039vvp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

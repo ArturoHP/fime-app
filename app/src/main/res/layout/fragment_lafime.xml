@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lafime">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:background="@color/White"
+                        android:id="@+id/toastlafime"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lafime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                <TextView
+                    android:text="La Facultad de Ingeniería Mecánica y Eléctrica (FIME), es una Institución educativa de nivel superior y pertenece a la Universidad Autónoma de Nuevo León."
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Nuestras 11 carreras a nivel Licenciatura, 25 programas de Posgrado y más de 120 cursos de Educación Continua que satisfacen los requerimientos y necesidades del estudiante y de la industria. La FIME cuenta con una planta aproximada de más de 660 maestros, de los cuales, algunos cuentan con perfil PRODEP, otros pertenecen al SNI (Sistema Nacional de Investigadores), varios de ellos con reconocimientos, premios y certificaciones en diferentes áreas."
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Para una atención efectiva, Nuestra Facultad cuenta con una importante infraestructura consistente en aulas climatizadas, extensos laboratorios, salas de cómputo, oficinas, salas de tutorías, estacionamientos, canchas deportivas, etc. y que le dan al estudiante toda una oportunidad de desarrollo tanto académico, social, cultural y deportivo."
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Conscientes de la competencia internacional, actualmente la FIME se encuentra certificada bajo la norma ISO 9001:2015, y cuenta con 11 programas de Licenciatura acreditados por CACEI y en Nivel 1 de CIEES, así como 11 programas de Posgrado en el PNPC."
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="El intercambio académico con otras instituciones educativas internacionales es una actividad de gran importancia y que la FIME viene realizando tanto con sus estudiantes como con sus docentes."
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+</LinearLayout>

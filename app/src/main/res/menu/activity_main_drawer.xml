@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/carrera"
+            android:title="Mi Carrera"
+            android:icon="@drawable/ic_carrera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_noticiand"
+            android:title="Noticias" />
+        <item
+            android:title="Calendarios"
+            android:id="@+id/calendarios"
+            android:icon="@drawable/ic_calendario"/>
+        <item
+            android:id="@+id/cafeteria"
+            android:icon="@drawable/ic_cafe"
+            android:title="Cafeteria" />
+        <item
+            android:id="@+id/contactanos"
+            android:icon="@drawable/ic_mail"
+            android:title="Contactanos"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_info"
+            android:title="Acerca de" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_acct"
+            android:title="Cuenta"/>
+    </group>
+
+</menu>
